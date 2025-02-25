@@ -18,10 +18,10 @@ export default async function Home() {
     <div className="flex justify-center">
         <div className="border p-8 rounded">
             <div>
-                Name: {userDetails?.name}
+                Name:{userDetails?.name}
             </div>
             
-           Email :  {userDetails?.email}
+           Email : {userDetails?.email}
         </div>
     </div>
 </div>
