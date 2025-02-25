@@ -1,0 +1,40 @@
+Learn fetching with axios function : 
+
+async function userDetails(){
+    const response = await axios.get("the link will come here")
+    return responce.data
+}
+
+
+Learn the loading.txt in this if they time to rendering we can write what they can see uptile the page.tsx load
+
+HOW WE CREATE ROUTES : 
+export function GET(){
+    return(
+        Response.json({
+            email :"abcd@gmail.com",
+            name : "abcd"
+        })
+    )
+}
+export function PUT(){
+    return(
+        Response.json({
+            email :"abcd@gmail.com",
+            name : "abcd"
+        })
+    )
+} 
+in NEXT.js
+
+
+And in simple we write :-
+
+app.get("/api/user", (req,res) =>{
+     res.json({
+             email : "harkirat@gmail.com" 
+             name : "harkirat"       
+     })
+})
+
+useRouter is used for to redirect it to the HOME page.... router.push("/")
