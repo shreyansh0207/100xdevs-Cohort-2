@@ -9,7 +9,7 @@ async function getUserData(){
 }
 
 
-
+//
 //creating  it the async component
 export default async function Home() {
   const userDetails = await getUserData();  //this will fetch the details
