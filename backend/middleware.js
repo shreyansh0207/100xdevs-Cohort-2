@@ -35,8 +35,11 @@ app.post("/middleware/post", (req, res) => {
     });
 });
 app.get("/",(req,res)=>{
-    
+    const user = req.body;
+
 })
-app.listen(3000, () => {
-    console.log("Server is running on port 3000");
-});
+// app.listen(3000, () => {
+//     console.log("Server is running on port 3000");
+// });
+
+
